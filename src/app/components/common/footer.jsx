@@ -1,5 +1,6 @@
 import { Copyright } from 'lucide-react'
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -29,7 +30,7 @@ const Footer = () => {
                             <Copyright />
                             <p>WiSHOP 2025</p>
                         </div>
-                        <p className='flex-[4]'>Privacy Policy</p>
+                        <Link href="/privacy-policy" className='flex-[4] hover:text-red-850 dark:hover:text-red-400 transition-colors cursor-pointer'>Privacy Policy</Link>
                     </div>
                 </div>
                 <div className='flex-[1]'>
