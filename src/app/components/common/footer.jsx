@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className='flex '>
                         <div className='flex-[3] flex gap-1'>
                             <Copyright />
-                            <p>WiSHOP 2025</p>
+                            <p>WiSHOP 2026</p>
                         </div>
                         <Link href="/privacy-policy" className='flex-[4] hover:text-red-850 dark:hover:text-red-400 transition-colors cursor-pointer'>Privacy Policy</Link>
                     </div>

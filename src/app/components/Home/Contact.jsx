@@ -32,19 +32,19 @@ const Contact = () => {
                 </div>
                 <div>
                     <p className="text-xl">Support</p>
-                    <p className="text-3xl">Vaibhav Baranwal</p>
+                    <p className="text-3xl">Baibhav Kumar</p>
                     <p className="text-3xl">91 931515961</p>
                 </div>
                 <div>
                     <p className="text-gray-500 mt-2">
-                    We are dedicated to exceeding your expectations, driving your success, and delivering solutions that elevate your business to the next level
+                        We are dedicated to exceeding your expectations, driving your success, and delivering solutions that elevate your business to the next level
                     </p>
                 </div>
             </div>
             <div className="flex-[6] border rounded-lg p-5 shadow-lg">
                 <Formik
                     initialValues={{
-                        firstname:"",
+                        firstname: "",
                         lastname: "",
                         email: "",
                         phone: "",
@@ -129,21 +129,21 @@ const Contact = () => {
                                     />
                                 </div>
                                 <div>
-                                <label className="block text-gray-700 font-medium">Existing Client Status
-                                </label>
-                                <Field as="select"
-                                    name="existingClient"
-                                    className="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                >
-                                    <option value="">Please select</option>
-                                    <option value="yes">Existing Client</option>
-                                    <option value="no">New Client</option>
-                                </Field>
-                                <ErrorMessage name="existingClient"
-                                    component="div"
-                                    className="text-red-500 text-sm mt-1"
-                                />
-                            </div>
+                                    <label className="block text-gray-700 font-medium">Existing Client Status
+                                    </label>
+                                    <Field as="select"
+                                        name="existingClient"
+                                        className="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                    >
+                                        <option value="">Please select</option>
+                                        <option value="yes">Existing Client</option>
+                                        <option value="no">New Client</option>
+                                    </Field>
+                                    <ErrorMessage name="existingClient"
+                                        component="div"
+                                        className="text-red-500 text-sm mt-1"
+                                    />
+                                </div>
                             </div>
                             <div>
                                 <label className="block text-gray-700 font-medium">
