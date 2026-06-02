@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="flex-[3] space-y-8">
                 <div>
                     <p className="text-xl ">Contact Us</p>
-                    <p className="text-4xl font-semibold">Elevate your brand to new heights with our expert services.
+                    <p className="text-4xl font-medium">Elevate your brand to new heights with our expert services.
                     </p>
                 </div>
                 <div>
@@ -69,7 +69,7 @@ const Contact = () => {
                                     <ErrorMessage
                                         name="firstname"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                                 <div>
@@ -83,7 +83,7 @@ const Contact = () => {
                                     <ErrorMessage
                                         name="lastname"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                                 <div>
@@ -97,7 +97,7 @@ const Contact = () => {
                                     <ErrorMessage
                                         name="email"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                                 <div>
@@ -111,7 +111,7 @@ const Contact = () => {
                                     <ErrorMessage
                                         name="phone"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                                 <div>
@@ -125,7 +125,7 @@ const Contact = () => {
                                     <ErrorMessage
                                         name="company"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                                 <div>
@@ -141,7 +141,7 @@ const Contact = () => {
                                     </Field>
                                     <ErrorMessage name="existingClient"
                                         component="div"
-                                        className="text-red-500 text-sm mt-1"
+                                        className="text-red-500 text-base mt-1"
                                     />
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ const Contact = () => {
                                 <ErrorMessage
                                     name="project"
                                     component="div"
-                                    className="text-red-500 text-sm mt-1"
+                                    className="text-red-500 text-base mt-1"
                                 />
                             </div>
                             <button

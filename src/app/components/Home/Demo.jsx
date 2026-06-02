@@ -7,7 +7,7 @@ export function TimelineDemo() {
     {
       title: "2024",
       content: (
-        <div>
+        <div key="2024-content">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-8">
             Built and launched Aceternity UI and Aceternity UI Pro from scratch
           </p>
@@ -47,7 +47,7 @@ export function TimelineDemo() {
     {
       title: "Early 2023",
       content: (
-        <div>
+        <div key="early-2023-content">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-8">
             I usually run out of copy, but when I see content this big, I try to
             integrate lorem ipsum.
@@ -92,7 +92,7 @@ export function TimelineDemo() {
     {
       title: "Changelog",
       content: (
-        <div>
+        <div key="changelog-content">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-4">
             Deployed 5 new components on Aceternity today
           </p>

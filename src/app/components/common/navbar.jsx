@@ -13,12 +13,13 @@ const Navbar = () => {
                 <Store />
                 <p className='text-xl'>WiSHOP</p>
             </div>
-            <div className='flex text-lg flex-[8] gap-8 *:cursor-pointer'>
+            <div className='flex text-lg flex-[8] gap-8 *:cursor-pointer items-center'>
                 <p>Products</p>
+                <Link href="#whatsapp-provider" className="hover:text-red-850 dark:hover:text-red-400 transition-colors">WhatsApp API</Link>
                 <p>Solutions</p>
                 <p>Portfolio</p>
-                <p>Use Cases</p>
                 <p>About</p>
+                <a href="https://waba.wishop.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-red-850 dark:hover:text-red-400 transition-colors font-medium text-base border border-red-800/30 px-4 py-1.5 rounded">WABA Console</a>
             </div>
             <div className='flex gap-4 items-center'>
                 <button

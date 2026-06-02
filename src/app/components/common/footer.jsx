@@ -8,17 +8,19 @@ const Footer = () => {
             <div className='flex text-lg'>
                 <p className='flex-[8] text-xl'>Wishop is the leading creative partner to startups and new ventures</p>
                 <div className='flex flex-1'>
-                    <ul className=''>
-                        <li className=''>Work</li>
-                        <li>Clients</li>
-                        <li>About</li>
+                    <ul className='space-y-1'>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>Work</li>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>Clients</li>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>About</li>
                     </ul>
                 </div>
                 <div className='flex-1'>
-                    <ul>
-                        <li>Careers</li>
-                        <li>Contact</li>
-                        <li>Team</li>
+                    <ul className='space-y-1'>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>Careers</li>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>Contact</li>
+                        <li className='cursor-pointer hover:text-red-850 dark:hover:text-red-400 transition-colors'>
+                            <a href="https://waba.wishop.xyz" target="_blank" rel="noopener noreferrer">WABA Onboarding</a>
+                        </li>
                     </ul>
                 </div>
             </div>

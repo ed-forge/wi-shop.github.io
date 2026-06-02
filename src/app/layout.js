@@ -1,7 +1,13 @@
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/common/footer";
 import Navbar from "./components/common/navbar";
 import { ThemeProvider } from "./context/ThemeProvider";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Workspace Intelligence",
@@ -17,7 +23,7 @@ export default function RootLayout({ children }) {
         <meta name="google-adsense-account" content="ca-pub-6366457075080576"/>
         <link rel="icon" href="/wi.svg" />
       </head>
-      <body className="dark:bg-black dark:text-white">
+      <body className={`${outfit.className} dark:bg-black dark:text-white`}>
         <ThemeProvider>
           <Navbar/>
           {children}

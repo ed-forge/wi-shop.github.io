@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-slate-50 dark:bg-black text-slate-900 dark:text-slate-100 transition-colors duration-300">
       {/* Hero Header */}
       <div className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-zinc-950/50 py-16 px-6 md:px-20">
-        <div className="max-w-8xl mx-auto">
+        <div className="max-w-9xl mx-auto">
           <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-red-800 dark:hover:text-red-400 transition-colors mb-8 text-sm font-medium">
             <ArrowLeft className="w-4 h-4" />
             Back to Home
@@ -22,11 +22,11 @@ export default function PrivacyPolicy() {
             <span className="p-2 bg-red-100 dark:bg-red-950/50 text-red-800 dark:text-red-400 rounded-lg">
               <Shield className="w-8 h-8" />
             </span>
-            <span className="text-sm font-bold tracking-wider uppercase text-red-800 dark:text-red-400">
+            <span className="text-sm font-medium tracking-wider uppercase text-red-800 dark:text-red-400">
               India Compliance &amp; Intermediary Policy
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+          <h1 className="text-4xl md:text-5xl font-medium tracking-tight mb-4">
             Privacy Policy &amp; Terms of Processing
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-lg">
@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
       </div>
 
       {/* Main Content Area */}
-      <div className="max-w-8xl mx-auto py-16 px-6 md:px-20">
+      <div className="max-w-9xl mx-auto py-16 px-6 md:px-20">
         <div className="prose prose-slate dark:prose-invert max-w-none space-y-12">
 
           {/* Section 1: Scope & Intermediary Status */}
@@ -46,12 +46,12 @@ export default function PrivacyPolicy() {
                 <FileText className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">1. Scope and Intermediary Status</h2>
+                <h2 className="text-2xl font-medium mb-2">1. Scope and Intermediary Status</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
                   WiSHOP (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) provides high-performance API integration, routing interfaces, and developer tools (&quot;Services&quot;) that enable business clients (&quot;Clients&quot;) to connect with their customers (&quot;End Users&quot;) via the WhatsApp Business Platform operated by Meta Platforms, Inc.
                 </p>
                 <div className="mt-4 p-4 bg-red-50/50 dark:bg-red-950/10 border border-red-100 dark:border-red-950/30 rounded-lg">
-                  <p className="text-sm font-semibold text-red-950 dark:text-red-400 mb-1">
+                  <p className="text-sm font-medium text-red-950 dark:text-red-400 mb-1">
                     Safe Harbor Protection under Section 79 of the IT Act, 2000
                   </p>
                   <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -69,19 +69,19 @@ export default function PrivacyPolicy() {
                 <Shield className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">2. Roles under Digital Personal Data Protection (DPDP) Act, 2023</h2>
+                <h2 className="text-2xl font-medium mb-2">2. Roles under Digital Personal Data Protection (DPDP) Act, 2023</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
                   In compliance with the Digital Personal Data Protection Act, 2023 (&quot;DPDP Act&quot;) of India, the roles and responsibilities are allocated as follows:
                 </p>
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-50 dark:bg-zinc-900/50 rounded-lg border border-slate-150 dark:border-zinc-800">
-                    <h3 className="font-bold text-red-800 dark:text-red-400 mb-1">Client as the Data Fiduciary</h3>
+                    <h3 className="font-medium text-red-800 dark:text-red-400 mb-1">Client as the Data Fiduciary</h3>
                     <p className="text-sm text-slate-600 dark:text-slate-300">
                       The Client is the **Data Fiduciary** under the DPDP Act. The Client determines the purpose and means of processing personal data. The Client warrants and represents that they have a lawful basis for processing the personal data of the Data Principals (End Users) and have obtained valid, free, specific, informed, unconditional, and unambiguous consent accompanied by a statutory notice in English and appropriate scheduled languages.
                     </p>
                   </div>
                   <div className="p-4 bg-slate-50 dark:bg-zinc-900/50 rounded-lg border border-slate-150 dark:border-zinc-800">
-                    <h3 className="font-bold text-red-800 dark:text-red-400 mb-1">WiSHOP as the Data Processor</h3>
+                    <h3 className="font-medium text-red-800 dark:text-red-400 mb-1">WiSHOP as the Data Processor</h3>
                     <p className="text-sm text-slate-600 dark:text-slate-300">
                       WiSHOP acts strictly as the **Data Processor** on behalf of the Data Fiduciary. WiSHOP processes personal data (such as recipient mobile numbers and message contents) solely to execute the data routing instructions provided by the Client. WiSHOP does not use this data for any independent purposes.
                     </p>
@@ -98,7 +98,7 @@ export default function PrivacyPolicy() {
                 <Lock className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">3. Information We Collect and Process</h2>
+                <h2 className="text-2xl font-medium mb-2">3. Information We Collect and Process</h2>
                 <div className="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed">
                   <p>
                     We collect and process personal data in a highly restricted manner, conforming to the principle of data minimization under Indian privacy regulations:
@@ -126,7 +126,7 @@ export default function PrivacyPolicy() {
                 <CheckCircle className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">4. Client Consent &amp; Legal Compliance Obligations</h2>
+                <h2 className="text-2xl font-medium mb-2">4. Client Consent &amp; Legal Compliance Obligations</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
                   The Client is solely responsible for compliance with the DPDP Act, 2023, the Information Technology Act, 2000, and Meta&apos;s WhatsApp Business Policies. The Client warrants and represents that:
                 </p>
@@ -161,7 +161,7 @@ export default function PrivacyPolicy() {
                 <AlertTriangle className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-red-850 dark:text-red-400 mb-2">5. Complete Exclusion &amp; Limitation of Liability</h2>
+                <h2 className="text-2xl font-medium text-red-850 dark:text-red-400 mb-2">5. Complete Exclusion &amp; Limitation of Liability</h2>
                 <div className="space-y-4 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
                   <p>
                     <strong>&quot;As Is&quot; and &quot;As Available&quot; Service:</strong> The Services are provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis, without warranties of any kind, either express or implied. WiSHOP does not warrant that the API routing, transmission, or integration will be uninterrupted, error-free, or entirely secure.
@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
                   <p>
                     <strong>Platform Outages and Third-Party Dependencies:</strong> The Service depends entirely on the WhatsApp Business Platform and Cloud API systems operated by Meta Platforms, Inc. WiSHOP is not liable for any service degradation, rate-limiting, API changes, message delivery delays, data loss, or server outages caused by Meta. If Meta suspends or terminates your WhatsApp Business Account (WABA), WiSHOP shall bear no liability whatsoever.
                   </p>
-                  <p className="font-semibold text-red-800 dark:text-red-400">
+                  <p className="font-medium text-red-800 dark:text-red-400">
                     <strong>Limitation of Liability Cap:</strong> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE INDIAN LAW, WISHOP’S MAXIMUM AGGREGATE LIABILITY FOR ALL CLAIMS, LOSSES, ACTIONS, SUITS, PENALTIES, OR DAMAGES IN CONNECTION WITH THE SERVICES OR THIS POLICY, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, SHALL BE STRICTLY LIMITED TO INR 5,000 (INDIAN RUPEES FIVE THOUSAND ONLY) OR THE ACTUAL NET FEES PAID BY THE CLIENT TO WISHOP IN THE ONE (1) MONTH PRECEDING THE CLAIM EVENT, WHICHEVER IS LOWER.
                   </p>
                   <p>
@@ -187,7 +187,7 @@ export default function PrivacyPolicy() {
                 <Shield className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">6. Client Indemnification</h2>
+                <h2 className="text-2xl font-medium mb-2">6. Client Indemnification</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm">
                   The Client agrees to fully defend, indemnify, and hold harmless WiSHOP, its promoters, directors, employees, and agents from and against any and all claims, regulatory penalties (including those imposed by the Data Protection Board of India, CERT-In, or any other government authority), liabilities, losses, damages, costs, and expenses (including attorney fees) arising from:
                 </p>
@@ -208,7 +208,7 @@ export default function PrivacyPolicy() {
                 <Lock className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">7. Security Practices &amp; Breach Disclosures</h2>
+                <h2 className="text-2xl font-medium mb-2">7. Security Practices &amp; Breach Disclosures</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm">
                   We maintain &quot;reasonable security practices and procedures&quot; as mandated under Section 43A of the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. This includes encryption of data in transit (TLS 1.3) and secure server environments.
                 </p>
@@ -226,7 +226,7 @@ export default function PrivacyPolicy() {
                 <Scale className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">8. Governing Law and Dispute Jurisdiction</h2>
+                <h2 className="text-2xl font-medium mb-2">8. Governing Law and Dispute Jurisdiction</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm">
                   This Policy, the Services, and all legal relations between WiSHOP and the Client shall be governed, interpreted, and construed solely in accordance with the laws of the Republic of India, without regard to conflict of law principles.
                 </p>
@@ -244,12 +244,12 @@ export default function PrivacyPolicy() {
                 <UserCheck className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2">9. Grievance Officer &amp; Redressal</h2>
+                <h2 className="text-2xl font-medium mb-2">9. Grievance Officer &amp; Redressal</h2>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm mb-4">
                   In accordance with the Information Technology Act, 2000, the SPDI Rules, 2011, and the DPDP Act, 2023, the contact details of the designated Grievance Officer for WiSHOP are provided below. Grievances will be addressed within the timelines prescribed by law.
                 </p>
                 <div className="p-4 bg-slate-50 dark:bg-zinc-900 rounded-lg space-y-1">
-                  <p className="text-sm font-semibold">WiSHOP Grievance Officer</p>
+                  <p className="text-sm font-medium">WiSHOP Grievance Officer</p>
                   <p className="text-sm text-slate-600 dark:text-slate-400">Officer Name: Baibhav Kumar</p>
                   <p className="text-sm text-slate-600 dark:text-slate-400">Designation: Grievance &amp; Compliance Officer</p>
                   <p className="text-sm text-slate-600 dark:text-slate-400">Email: support@wishop.xyz</p>
