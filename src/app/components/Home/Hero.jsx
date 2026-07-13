@@ -8,24 +8,18 @@ import Link from 'next/link';
 const Hero = () => {
     // Dynamic data for the slider
     const sliderItems = [
-        "Revolutionize your workspace",
-        "Boost productivity with AI",
-        "Unlock creative solutions",
-        "Tailored video production",
-        "Stunning 3D designs",
-        "Empower your digital presence",
-        "Revolutionize your workspace",
-        "Boost productivity with AI",
-        "Unlock creative solutions",
-        "Tailored video production",
-        "Stunning 3D designs",
-        "Empower your digital presence",
-        "Revolutionize your workspace",
-        "Boost productivity with AI",
-        "Unlock creative solutions",
-        "Tailored video production",
-        "Stunning 3D designs",
-        "Empower your digital presence",
+        "Find traction, not theater",
+        "Build autonomous AI agents",
+        "Deploy custom web apps",
+        "Own your data architecture",
+        "Automate manual workflows",
+        "Stop renting SaaS wrappers",
+        "Find traction, not theater",
+        "Build autonomous AI agents",
+        "Deploy custom web apps",
+        "Own your data architecture",
+        "Automate manual workflows",
+        "Stop renting SaaS wrappers",
     ];
 
     const settings = {
@@ -40,35 +34,50 @@ const Hero = () => {
     };
 
     return (
-        <div className='relative w-full py-24 px-4 md:px-20 bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-white border-b border-neutral-250 dark:border-neutral-800'>
-            <div className='container mx-auto max-w-9xl relative z-10 flex flex-col lg:flex-row gap-16 items-center'>
-                <div className='flex-[7] text-left flex flex-col gap-8'>
-                    <h1 className='text-5xl md:text-7xl lg:text-8xl font-thin leading-tight tracking-tight'>
-                        Revolutionize your <span className='decoration-red-800 dark:decoration-red-400 rounded underline underline-offset-8'>Workspace</span> with <span className='underline decoration-red-800 dark:decoration-red-400 underline-offset-8'>Intelligence</span>
-                    </h1>
-                    <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl leading-relaxed">
-                        Deploy smart automated workflows, conversational commerce channels, and stunning digital experiences designed to scale your operations.
+        <section className='relative min-h-[90vh] flex items-center bg-[#fdfaf6] dark:bg-black overflow-hidden transition-colors duration-300'>
+            <div className='container mx-auto px-4 md:px-8 max-w-7xl relative pt-32 pb-20 lg:pt-40 lg:pb-28 flex flex-col lg:flex-row gap-16 items-center'>
+                
+                <div className='flex-[7] text-left flex flex-col'>
+                    <p className="text-sm font-semibold tracking-[0.15em] uppercase text-red-700 dark:text-red-500 mb-6 flex items-center gap-3">
+                        <span className="w-8 h-px bg-red-700/50 dark:bg-red-500/50"></span>
+                        Product, Growth, and Internal Tools
                     </p>
-                    <div className='mt-4'>
-                        <Link href="#contact" className='inline-block text-xl p-5 px-10 text-white font-medium rounded-lg bg-red-800 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-650 shadow transition-all'>
-                            Get Started
+                    <h1 className='text-[3.5rem] md:text-[5.5rem] leading-[1.05] font-medium tracking-tight text-neutral-900 dark:text-white mb-8'>
+                        Stop buying features. <br/><span className='text-red-800 dark:text-red-500 italic font-serif'>Build solutions.</span>
+                    </h1>
+                    <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-xl mb-10 leading-relaxed font-light">
+                        We diagnose the stage you are actually in, find what will land with the cheapest possible experiments, then ship the custom apps, AI agents, and automations that prove it.
+                    </p>
+                    <div className='flex flex-wrap items-center gap-4'>
+                        <Link href="#contact" className='inline-flex shrink-0 items-center gap-2 justify-center whitespace-nowrap bg-red-900 text-white hover:bg-red-800 dark:bg-red-700 dark:hover:bg-red-600 rounded-full px-8 py-4 text-sm font-medium shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 group'>
+                            Book a Clarity Session
+                            <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                        </Link>
+                        <Link href="#contact" className='inline-flex shrink-0 items-center justify-center whitespace-nowrap text-red-900 dark:text-red-400 border border-red-900/20 dark:border-red-400/20 hover:border-red-900/50 dark:hover:border-red-400/50 hover:bg-red-50 dark:hover:bg-red-950 rounded-full px-8 py-4 text-sm font-medium transition-all group'>
+                            View our methodology
                         </Link>
                     </div>
                 </div>
 
-                <div className="flex-[3] w-full lg:w-auto relative">
-                    <div className="relative slider-container border border-neutral-200 dark:border-neutral-800 rounded-xl bg-white dark:bg-neutral-900 overflow-hidden shadow">
+                <div className="flex-[4] w-full lg:w-auto relative">
+                    <div className="relative slider-container rounded-sm border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden shadow-sm backdrop-blur-sm">
                         <Slider {...settings} >
                             {sliderItems.map((item, index) => (
-                                <div key={index} className='hover:bg-red-800 hover:text-white p-6 border-b border-neutral-100 dark:border-neutral-800/60 transition-colors'>
-                                    <h3 className='text-lg font-normal text-center'>{item}</h3>
+                                <div key={index} className='hover:bg-red-900 dark:hover:bg-red-800 hover:text-white dark:hover:text-white p-6 border-b border-neutral-100 dark:border-neutral-800 transition-colors cursor-pointer group'>
+                                    <h3 className='text-lg font-medium text-center text-neutral-600 dark:text-neutral-400 group-hover:text-white transition-colors'>{item}</h3>
                                 </div>
                             ))}
                         </Slider>
                     </div>
                 </div>
+                
             </div>
-        </div>
+            
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+                <span className="text-[0.6875rem] tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-600 font-medium">Scroll</span>
+                <div className="w-px h-8 bg-neutral-300 dark:bg-neutral-800"></div>
+            </div>
+        </section>
     );
 };
 
