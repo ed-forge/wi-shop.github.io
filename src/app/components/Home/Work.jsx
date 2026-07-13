@@ -11,11 +11,11 @@ const Work = () => {
                         <p className="text-sm font-semibold tracking-[0.15em] uppercase text-red-700/80 dark:text-red-500/80 mb-5">
                             Our Work
                         </p>
-                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-medium text-neutral-900 dark:text-white max-w-2xl tracking-tight">
+                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-thin text-neutral-900 dark:text-white max-w-2xl tracking-tight">
                             Proof in production.
                         </h2>
                     </div>
-                    <Link href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-red-900 text-red-900 hover:bg-red-900 hover:text-white dark:border-red-500 dark:text-red-500 dark:hover:bg-red-500 dark:hover:text-white transition-all font-medium text-sm group">
+                    <Link href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-red-900 text-red-900 hover:bg-red-900 hover:text-white dark:border-red-500 dark:text-red-500 dark:hover:bg-red-500 dark:hover:text-white transition-all font-thin text-sm group">
                         View all case studies
                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                     </Link>
@@ -31,7 +31,7 @@ const Work = () => {
                                 [ E-Commerce Platform Snapshot ]
                             </div>
                         </div>
-                        <h3 className="text-2xl font-medium text-neutral-900 dark:text-white mb-2 group-hover:text-red-800 dark:group-hover:text-red-400 transition-colors">
+                        <h3 className="text-2xl font-thin text-neutral-900 dark:text-white mb-2 group-hover:text-red-800 dark:group-hover:text-red-400 transition-colors">
                             Global Retail Scaling
                         </h3>
                         <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
@@ -48,7 +48,7 @@ const Work = () => {
                                 [ AI Agent Dashboard Snapshot ]
                             </div>
                         </div>
-                        <h3 className="text-2xl font-medium text-neutral-900 dark:text-white mb-2 group-hover:text-red-800 dark:group-hover:text-red-400 transition-colors">
+                        <h3 className="text-2xl font-thin text-neutral-900 dark:text-white mb-2 group-hover:text-red-800 dark:group-hover:text-red-400 transition-colors">
                             Automated Healthcare Triage
                         </h3>
                         <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">

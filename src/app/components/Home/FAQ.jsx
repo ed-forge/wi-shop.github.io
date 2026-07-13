@@ -23,7 +23,7 @@ const faqData = [
 const FAQItem = ({ faq }) => {
   return (
     <div className="bg-neutral-50 dark:bg-neutral-900 rounded-xl p-6 transition-all border border-neutral-100 dark:border-neutral-800">
-      <h3 className="text-neutral-900 dark:text-white font-medium text-lg mb-4">{faq.question}</h3>
+      <h3 className="text-neutral-900 dark:text-white font-thin text-lg mb-4">{faq.question}</h3>
       <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed">
         {faq.answer}
       </p>
@@ -35,7 +35,7 @@ export default function FAQ() {
   return (
     <section className="py-24 bg-white dark:bg-neutral-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header section */}
         <div className="text-center mb-16">
           <p className="text-red-600 dark:text-red-500 font-semibold tracking-wide uppercase text-sm mb-4">
@@ -52,7 +52,7 @@ export default function FAQ() {
             <FAQItem key={index} faq={faq} />
           ))}
         </div>
-        
+
       </div>
     </section>
   );

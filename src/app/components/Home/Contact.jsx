@@ -30,22 +30,22 @@ const Contact = () => {
                         <p className="text-sm font-semibold tracking-[0.15em] uppercase text-red-700/80 dark:text-red-500/80 mb-6">
                             Start a Conversation
                         </p>
-                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-medium text-neutral-900 dark:text-white mb-8">
+                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-thin text-neutral-900 dark:text-white mb-8">
                             Bring us the mess.
                         </h2>
                         <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed mb-12">
                             The overwhelm, the stalled traction, the tool that almost fits. We'll find the next proof milestone together and build the engine to hit it.
                         </p>
                     </div>
-                    
+
                     <div className="mt-auto border-t border-neutral-200 dark:border-neutral-800 pt-8">
                         <p className="text-sm font-semibold tracking-[0.1em] uppercase text-neutral-500 dark:text-neutral-600 mb-3">
                             Direct Support
                         </p>
-                        <p className="text-2xl font-medium text-neutral-900 dark:text-white mb-1">
+                        <p className="text-2xl font-thin text-neutral-900 dark:text-white mb-1">
                             Baibhav Kumar
                         </p>
-                        <p className="text-xl text-red-800 dark:text-red-500 font-medium">
+                        <p className="text-xl text-red-800 dark:text-red-500 font-thin">
                             +91 931515961
                         </p>
                     </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                             <Form className="space-y-6">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">First Name</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">First Name</label>
                                         <Field
                                             type="text"
                                             name="firstname"
@@ -83,7 +83,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Last Name</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">Last Name</label>
                                         <Field
                                             type="text"
                                             name="lastname"
@@ -97,7 +97,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Business Email</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">Business Email</label>
                                         <Field
                                             type="email"
                                             name="email"
@@ -111,7 +111,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Contact Number</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">Contact Number</label>
                                         <Field
                                             type="text"
                                             name="phone"
@@ -125,7 +125,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className="md:col-span-2">
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Organization</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">Organization</label>
                                         <Field
                                             type="text"
                                             name="company"
@@ -139,7 +139,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className="md:col-span-2">
-                                        <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Existing Client Status</label>
+                                        <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">Existing Client Status</label>
                                         <Field as="select"
                                             name="existingClient"
                                             className="w-full p-3 bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-sm focus:outline-none focus:border-red-800 dark:focus:border-red-500 focus:ring-1 focus:ring-red-800 dark:focus:ring-red-500 transition-colors"
@@ -155,7 +155,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">
+                                    <label className="block text-sm font-thin text-neutral-700 dark:text-neutral-300 mb-2">
                                         Project Overview
                                     </label>
                                     <Field
@@ -173,7 +173,7 @@ const Contact = () => {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-red-800 text-white py-4 rounded-sm hover:bg-red-700 transition duration-200 font-medium mt-4 shadow-sm"
+                                    className="w-full bg-red-800 text-white py-4 rounded-sm hover:bg-red-700 transition duration-200 font-thin mt-4 shadow-sm"
                                 >
                                     Submit Request
                                 </button>

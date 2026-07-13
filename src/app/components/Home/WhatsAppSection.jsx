@@ -7,7 +7,7 @@ const WhatsAppSection = () => {
     return (
         <section id="whatsapp-provider" className="relative w-full py-24 bg-red-950 border-t border-red-900 overflow-hidden">
             <div className="container mx-auto max-w-7xl px-4 md:px-8 relative z-10">
-                
+
                 {/* Upper Hero Grid */}
                 <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
                     {/* Left Column: Information (Original Typography) */}
@@ -17,7 +17,7 @@ const WhatsAppSection = () => {
                                 Platform Infrastructure
                             </p>
                         </div>
-                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-medium text-white mb-8">
+                        <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-thin text-white mb-8">
                             Build your own WhatsApp engine.
                         </h2>
                         <p className="text-lg text-red-100/60 leading-relaxed max-w-xl mb-10">
@@ -29,30 +29,30 @@ const WhatsAppSection = () => {
                                 href="https://waba.wishop.xyz"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap bg-white text-red-950 hover:bg-red-50 rounded-full px-8 h-12 text-sm font-medium shadow-sm transition-all"
+                                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap bg-white text-red-950 hover:bg-red-50 rounded-full px-8 h-12 text-sm font-thin shadow-sm transition-all"
                             >
                                 Start Onboarding
                             </a>
                             <Link
                                 href="#contact"
-                                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap text-white border border-red-800 hover:bg-red-900 rounded-full px-6 h-12 text-sm font-medium transition-colors"
+                                className="inline-flex shrink-0 items-center justify-center whitespace-nowrap text-white border border-red-800 hover:bg-red-900 rounded-full px-6 h-12 text-sm font-thin transition-colors"
                             >
                                 Talk to an Expert
                             </Link>
                         </div>
-                        
+
                         <div className="mt-12 flex flex-col gap-3">
                             <div className="flex items-center gap-3 text-red-100/80">
                                 <CheckCircle2 className="w-5 h-5 text-red-400" />
-                                <span className="text-sm font-medium">Verified Business Profile</span>
+                                <span className="text-sm font-thin">Verified Business Profile</span>
                             </div>
                             <div className="flex items-center gap-3 text-red-100/80">
                                 <CheckCircle2 className="w-5 h-5 text-red-400" />
-                                <span className="text-sm font-medium">Unlimited Automated Flows</span>
+                                <span className="text-sm font-thin">Unlimited Automated Flows</span>
                             </div>
                             <div className="flex items-center gap-3 text-red-100/80">
                                 <CheckCircle2 className="w-5 h-5 text-red-400" />
-                                <span className="text-sm font-medium">100% Data Ownership</span>
+                                <span className="text-sm font-thin">100% Data Ownership</span>
                             </div>
                         </div>
                     </div>
@@ -66,13 +66,13 @@ const WhatsAppSection = () => {
                                     W
                                 </div>
                                 <div>
-                                    <h4 className="text-white font-medium">WiSHOP Support</h4>
+                                    <h4 className="text-white font-thin">WiSHOP Support</h4>
                                     <p className="text-xs text-red-400 flex items-center gap-1">
                                         <span className="w-2 h-2 rounded-full bg-green-500 inline-block"></span> Online
                                     </p>
                                 </div>
                             </div>
-                            
+
                             {/* Mock Chat Bubbles */}
                             <div className="space-y-6">
                                 {/* Agent Bubble */}
@@ -81,10 +81,10 @@ const WhatsAppSection = () => {
                                         Hi! I noticed you left some items in your cart. Would you like a 10% discount to complete your order?
                                     </div>
                                 </div>
-                                
+
                                 {/* Rich Media Button */}
                                 <div className="flex justify-start">
-                                    <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-3 max-w-[85%] w-full flex items-center justify-center text-red-400 text-sm font-medium hover:bg-neutral-800 cursor-pointer transition-colors">
+                                    <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-3 max-w-[85%] w-full flex items-center justify-center text-red-400 text-sm font-thin hover:bg-neutral-800 cursor-pointer transition-colors">
                                         Apply Discount & Checkout
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ const WhatsAppSection = () => {
                                         Yes, please! That would be great.
                                     </div>
                                 </div>
-                                
+
                                 {/* Agent Bubble */}
                                 <div className="flex justify-start pt-2">
                                     <div className="bg-neutral-900 border border-neutral-800 rounded-2xl rounded-tl-sm p-4 max-w-[85%] text-sm text-neutral-300">
@@ -104,7 +104,7 @@ const WhatsAppSection = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* Decorative background elements */}
                         <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-red-600/5 blur-[120px] rounded-full"></div>
                     </div>
@@ -121,7 +121,7 @@ const WhatsAppSection = () => {
                         href="https://waba.wishop.xyz"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-sm text-red-400 font-medium hover:text-red-300 transition-colors group"
+                        className="inline-flex items-center gap-2 text-sm text-red-400 font-thin hover:text-red-300 transition-colors group"
                     >
                         Developer Console <span className="transition-transform group-hover:translate-x-1"><ArrowRight className="w-4 h-4" /></span>
                     </a>

@@ -9,7 +9,7 @@ export const Services = () => (
           <p className="text-sm font-semibold tracking-[0.15em] uppercase text-red-300/80 mb-5">
             Our Expertise
           </p>
-          <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-medium text-white max-w-2xl">
+          <h2 className="text-[2.5rem] md:text-[3.5rem] leading-[1.1] font-thin text-white max-w-2xl">
             Tailored Digital Solutions
           </h2>
           <p className="text-lg text-red-100/70 max-w-xl mt-4 leading-relaxed">
@@ -19,7 +19,7 @@ export const Services = () => (
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 rounded-2xl overflow-hidden">
-        
+
         {/* Service 1: Websites */}
         <div className="bg-red-950 p-8 lg:p-12 h-full group flex flex-col hover:bg-red-900/40 transition-colors duration-500">
           <div className="flex items-center gap-3 mb-6">
@@ -30,7 +30,7 @@ export const Services = () => (
               Web Development
             </span>
           </div>
-          <h3 className="text-2xl font-medium text-white mb-4">Custom Websites</h3>
+          <h3 className="text-2xl font-thin text-white mb-4">Custom Websites</h3>
           <p className="text-red-100/60 text-base leading-relaxed group-hover:text-red-100/80 transition-colors flex-1">
             Build a commanding online presence with blazing-fast, responsive, and beautifully designed web applications. We specialize in corporate platforms, e-commerce, and bespoke web apps.
           </p>
@@ -46,7 +46,7 @@ export const Services = () => (
               Mobile Engineering
             </span>
           </div>
-          <h3 className="text-2xl font-medium text-white mb-4">Mobile Applications</h3>
+          <h3 className="text-2xl font-thin text-white mb-4">Mobile Applications</h3>
           <p className="text-red-100/60 text-base leading-relaxed group-hover:text-red-100/80 transition-colors flex-1">
             Engage your users on the go. We design and develop native and cross-platform mobile experiences for iOS and Android that are intuitive, secure, and highly performant.
           </p>
@@ -62,7 +62,7 @@ export const Services = () => (
               Artificial Intelligence
             </span>
           </div>
-          <h3 className="text-2xl font-medium text-white mb-4">AI Agents</h3>
+          <h3 className="text-2xl font-thin text-white mb-4">AI Agents</h3>
           <p className="text-red-100/60 text-base leading-relaxed group-hover:text-red-100/80 transition-colors flex-1">
             Transform customer engagement with context-aware AI. Deploy intelligent support and sales agents that resolve queries, recommend products, and operate autonomously 24/7.
           </p>
@@ -78,7 +78,7 @@ export const Services = () => (
               Business Workflows
             </span>
           </div>
-          <h3 className="text-2xl font-medium text-white mb-4">Intelligent Automations</h3>
+          <h3 className="text-2xl font-thin text-white mb-4">Intelligent Automations</h3>
           <p className="text-red-100/60 text-base leading-relaxed group-hover:text-red-100/80 transition-colors flex-1">
             Eliminate manual tasks and streamline operations. We integrate your existing software stack and build custom backend automations to make your business run flawlessly.
           </p>
